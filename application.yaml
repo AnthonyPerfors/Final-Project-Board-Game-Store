@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      username: BoardGameStore
+      password: BoardGameStore
+      url: jdbc:mysql://localhost:3306/BoardGameStore
+      
+   jpa:
+      hibernate:
+         ddl_auto: update
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: never
+      
